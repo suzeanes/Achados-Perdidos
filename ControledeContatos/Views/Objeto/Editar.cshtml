@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Editar Cadastro de Achados & Perdidos";
+}
+<div class="text-center"><h1 class="display-4">Editar Cadastro de Achados & Perdidos</h1></div>
+<br />
+
+<form>
+    <div class="form-group">
+        <label for="Objeto">O que você Encontrou / Perdeu?</label>
+        <input type="text" class="form-control" placeholder="O que você perdeu / Encontrou?">
+    </div>
+    <div class="form-group">
+        <label for="Modelo">Modelo</label>
+        <input type="text" class="form-control" placeholder="Qual a Marca / Modelo?">
+    </div>
+    <div class="form-group">
+        <label for="Detalhes">Detalhes</label>
+        <input type="text" class="form-control" placeholder="Quais os detalhes?">
+    </div>
+    <div class="form-group">
+        <label for="Localizacao">Localizacao</label>
+        <input type="text" class="form-control" placeholder="Onde você encontrou / perdeu?">
+    </div>
+        <br />
+
+    <button type="submit" class="btn btn-primary btn-toolbar"> Editar Cadastro de Achados & Perdidos</button>
+    <br />
+    <a class="btn btn-primary btn-block" asp-controller="Contato" asp-action="Index" role="button">Voltar</a>
+</form>
+
+

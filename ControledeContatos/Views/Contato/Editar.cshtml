@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Editar Contato";
+}
+<div class="text-center"><h1 class="display-4">Editar Contato</h1></div>
+<br />
+
+<form>
+    <div class="form-group">
+        <label for="Nome">Nome Completo</label>
+        <input type="text" class="form-control" placeholder="Digite o seu Nome Completo">
+    </div>
+    <div class="form-group">
+        <label for="Email">E-mail</label>
+        <input type="text" class="form-control" placeholder="Digite o seu melhor E-mail">
+    </div>
+    <div class="form-group">
+        <label for="Phone">Telefone</label>
+        <input type="text" class="form-control" placeholder="Digite o Número do seu  Telefone">
+    </div>
+    <p></p>
+    <p></p>
+
+    <label for="data_nascimento">Data de Nascimento</label>
+    <input type="date" name="data_nascimento" id="data_nascimento" required>
+    <br />
+    <br>
+    <p>Sexo:</p>
+    <input type="radio" name="genero" value="feminino" required>
+    <label for="feminino">Feminino</label>
+    <input type="radio" name="genero" value="masculino" required>
+    <label for="masculino">Masculino</label>
+    <input type="radio" name="genero" value="outro" required>
+    <label for="outro">Outro</label>
+    <br>
+    <br>
+    <div class="form-group">
+        <label for="Phone">Endereço</label>
+        <input type="text" class="form-control" placeholder="Digite o seu Endereço">
+    </div>
+    <div class="form-group">
+        <label for="Phone">Cidade</label>
+        <input type="text" class="form-control" placeholder="Digite o Nome da sua Cidade">
+    </div>
+    <div class="form-group">
+        <label for="Phone">Estado</label>
+        <input type="text" class="form-control" placeholder="Digite a Sigla do seu Estado">
+    </div>
+    <br />
+
+    <button type="submit" class="btn btn-primary btn-toolbar"> Editar Contato</button>
+    <br />
+    <a class="btn btn-primary btn-block" asp-controller="Contato" asp-action="Index" role="button">Voltar</a>
+</form>
+
+
