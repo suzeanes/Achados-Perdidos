@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Achados & Perdidos</title>
+</head>
+<body>
+   <header>
+        <nav class="nav-bar">
+                <div class="logo">
+                <h1>Achados & Perdidos</h1>
+                </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Senac</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Achados & Perdidos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Cadastro Usuários</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Fale Conosco</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="#">Login</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./image/barra-de-menu.png" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Senac</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Achados & Perdidos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Fale Conosco</a></li>
+            </ul>
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+        </div>
+   </header>
+
+   <div class=figure>
+    <p><img src="eiffel.jpg"
+      width="136" height="200"
+      alt="Torre Eiffel">
+    <p>Miniatura da 
+      torre Eiffel no 
+      Parque Mini-France
+  </div>
+
+   <article></article>
+   <div id="carouselExampleFade"  class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" background-size: "300px 150px" src="./image/slide1.1.jpg" alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="" alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="" alt="Terceiro Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+    <script src="script.js"></script>
+    <div class="container">
+        <h1>O Mais Querido</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner limiteCarrosel">
+                <div class="item active">
+                    <img src="" alt="Flamengo" class="imgCarrossel">
+                </div>
+
+                <div class="item">
+                    <img src="" alt="Fla" class="imgCarrossel">
+                </div>
+
+                <div class="item">
+                    <img src="" alt="Raca" class="imgCarrossel">
+                </div>
+            </div>
+
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+   
+    <div id="slider">
+        <img src="./image/slide1.1.jpg" alt="Image2">
+        <img src="./image/slide2.2.jpg" alt="Image3">
+        <img src="./image/slide3.1.jpg" alt="Image4">
+    </div>
+
+
+    
+
+</body>
+<footer class="footer-box">
+          <div class="footer-list"></div>
+        <ul>
+            <class="footer-item"><a href="#" class="footer-link">Encontrei um Objeto</a></li>
+            <class="footer-item"><a href="#" class="footer-link">Perdi um Objeto</a></li>
+            <class="footer-item"><a href="#" class="footer-link">Fale Conosco</a></li>
+        </ul>
+   </footer>
+</html>
